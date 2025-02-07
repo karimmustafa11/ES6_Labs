@@ -16,7 +16,7 @@ var filteredFruits = fruits.filter(function (fruit) {
     return fruit.startsWith("b") || fruit.startsWith("s");
 })
 
-console.log(filteredFruits)
+console.log(filteredFruits);
 
 var likedFruits = fruits.map(function (fruit) {
     return `I like ${fruit}`;
